@@ -33,12 +33,12 @@ Here are some ideas to get you started:
 - [Mongo Express](https://github.com/mongo-express)
 - [µWS Ecosystem](https://github.com/uws-ecosystem)
 
-### Current Stack
+### 🚀 Current Stack
 <a href="https://github.com/tandpfun/skill-icons">
   <img align="center" src="https://skillicons.dev/icons?i=js,ts,html,css,sass,tailwind,solidjs,nodejs,bun,mongodb,electron,git,yarn,rollupjs,vscode&theme=dark" />
 </a>
 
-### Previous Stack
+### 🟡 Previous Stack
 <a href="https://github.com/tandpfun/skill-icons">
   <img align="center" src="https://skillicons.dev/icons?i=react,elysia,express,materialui,mysql,nextjs,vite,flutter,docker,aws,py,java,npm&theme=dark" />
 </a>
