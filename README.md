@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 My current works
-- [vike](https://github.com/vikejs/vike)'s frameworks integration
+- [Vike](https://github.com/vikejs/vike)'s integrations
 - [µWebSockets.js](https://github.com/uNetworking/uWebSockets.js)'s ecosystem
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
