@@ -26,11 +26,22 @@ Here are some ideas to get you started:
 - [Vite + Solid + DaisyUI](https://github.com/rtritto/template-vite-solid-daisyui)
 - [Vike + Solid + DaisyUI](https://github.com/rtritto/template-vike-solid-daisyui)
 - [Vike + Elysia + Solid + DaisyUI](https://github.com/rtritto/template-vike-elysia-solid-daisyui)
+- _TODO ~ Vike + µWebSockets.js + Solid + DaisyUI_
 - [Electron](https://github.com/rtritto/template-electron-vite)
 
 ### 🌐 Organizations
 - [Mongo Express](https://github.com/mongo-express)
 - [µWS Ecosystem](https://github.com/uws-ecosystem)
+
+### Current Stack
+<a href="https://github.com/tandpfun/skill-icons">
+  <img align="center" src="https://skillicons.dev/icons?i=js,ts,html,css,sass,tailwind,solidjs,nodejs,bun,mongodb,electron,git,yarn,rollupjs,vscode&theme=dark" />
+</a>
+
+### Previous Stack
+<a href="https://github.com/tandpfun/skill-icons">
+  <img align="center" src="https://skillicons.dev/icons?i=react,elysia,express,materialui,mysql,nextjs,vite,flutter,docker,aws,py,java,npm&theme=dark" />
+</a>
 
 ### 📈 Stats
 <a href="https://github.com/anuraghazra/github-readme-stats">
