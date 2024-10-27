@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 - [Vite + Solid + DaisyUI](https://github.com/rtritto/template-vite-solid-daisyui)
 - [Vike + Solid + DaisyUI](https://github.com/rtritto/template-vike-solid-daisyui)
 - [Vike + Solid + DaisyUI + Elysia](https://github.com/rtritto/template-vike-solid-daisyui-elysia)
-- _TODO ~ Vike + µWebSockets.js + Solid + DaisyUI_
+- _TODO ~ Vike + Solid + DaisyUI + µWebSockets.js_
 - [Electron](https://github.com/rtritto/template-electron-vite)
 
 ### 🌐 Organizations
