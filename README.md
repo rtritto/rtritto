@@ -32,6 +32,7 @@ Here are some ideas to get you started:
 ### 🌐 Organizations
 - [Mongo Express](https://github.com/mongo-express)
 - [µWS Ecosystem](https://github.com/uws-ecosystem)
+- [Node Ecosystem](https://github.com/node-ecosystem)
 
 ### 💡 Ideas for new projects (contact me to contribute)
 - Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Achieved by:
