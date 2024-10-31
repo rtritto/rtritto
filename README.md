@@ -43,6 +43,14 @@ Here are some ideas to get you started:
   <img align="center" src="https://skillicons.dev/icons?i=react,elysia,express,materialui,mysql,flutter,docker,aws,py,java,npm&theme=dark" />
 </a>
 
+### Ideas for new projects (contact me to contribute)
+- Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Achieved by:
+  - pose recognition (training set generated from input videos)
+  - camera device to capture workout exercise
+- Porting from Rust to Node.js a performant Web Server / Web Sockets library. Achieved by:
+  - [Neon](https://github.com/neon-bindings/neon) to unlock language interoperability and generate the Node.js native modules
+- Create a Visual Studio Code extension that uses low-code with AI to generate config interface from code and vice versa
+
 ### 📈 Stats
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=rtritto&theme=tokyonight" />
