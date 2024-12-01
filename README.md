@@ -16,8 +16,9 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 My current works
-- [Vike](https://github.com/vikejs/vike)'s integrations
-- [µWebSockets.js](https://github.com/uNetworking/uWebSockets.js)'s ecosystem
+- [Vike](https://github.com/vikejs/vike)'s integrations:
+  - [Encore.ts](https://encore.dev/docs/ts) as Web Server ([Bati Discussion](https://github.com/vikejs/bati/discussions/430))
+  - [gRPC Web](https://github.com/grpc/grpc-web) ([Bati Discussion](https://github.com/vikejs/bati/discussions/429))
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
 ### 📚 Templates
@@ -26,7 +27,6 @@ Here are some ideas to get you started:
 - [Vite + Solid + DaisyUI](https://github.com/rtritto/template-vite-solid-daisyui)
 - [Vike + Solid + DaisyUI](https://github.com/rtritto/template-vike-solid-daisyui)
 - [Vike + Solid + DaisyUI + Elysia](https://github.com/rtritto/template-vike-solid-daisyui-elysia)
-- _TODO ~ Vike + Solid + DaisyUI + µWebSockets.js_
 - [Electron](https://github.com/rtritto/template-electron-vite)
 
 ### 🌐 Organizations
