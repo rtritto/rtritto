@@ -35,12 +35,15 @@ Here are some ideas to get you started:
 - [Node Ecosystem](https://github.com/node-ecosystem)
 
 ### 💡 Ideas for new projects (contact me to contribute)
-- Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Achieved by:
+- Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Can be achieved by:
   - pose recognition (training set generated from input videos)
   - camera device to capture workout exercise
-- Porting from Rust to Node.js a performant Web Server / Web Sockets library. Achieved by:
-  - [Neon](https://github.com/neon-bindings/neon) to unlock language interoperability and generate the Node.js native modules
-- Create a Visual Studio Code extension that uses low-code with AI to generate config interface from code and vice versa
+- ~~Create a library for Node.js that exports a _performant_ Rust Web Server / Web Sockets crate. Can be achieved by:~~
+  - ~~[Neon](https://github.com/neon-bindings/neon) to unlock language interoperability and generate the Node.js native modules~~
+
+  → Unlocked by [Encore.ts](https://encore.dev/docs/ts)
+- Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
+- Create an add-on for Firefox for Android to control a video in Smart TV (Google TV OS)
 
 ### 🚀 Current Stack
 <a href="https://github.com/tandpfun/skill-icons">
