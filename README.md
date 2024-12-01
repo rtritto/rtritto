@@ -47,12 +47,12 @@ Here are some ideas to get you started:
 
 ### 🚀 Current Stack
 <a href="https://github.com/tandpfun/skill-icons">
-  <img align="center" src="https://skillicons.dev/icons?i=js,ts,html,css,sass,tailwind,solidjs,nextjs,vite,nodejs,bun,mongodb,electron,git,yarn,rollupjs,vscode&theme=dark" />
+  <img align="center" src="https://skillicons.dev/icons?i=js,ts,html,css,sass,tailwind,solidjs,nextjs,vite,nodejs,mongodb,electron,git,yarn,rollupjs,vscode&theme=dark" />
 </a>
 
 ### 🟡 Previous Stack
 <a href="https://github.com/tandpfun/skill-icons">
-  <img align="center" src="https://skillicons.dev/icons?i=react,elysia,express,materialui,mysql,flutter,docker,aws,py,java,npm&theme=dark" />
+  <img align="center" src="https://skillicons.dev/icons?i=react,elysia,express,materialui,mysql,flutter,docker,aws,bun,rust,py,java,npm&theme=dark" />
 </a>
 
 ### 📈 Stats
