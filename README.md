@@ -17,21 +17,18 @@ Here are some ideas to get you started:
 
 ### 🔭 My current works
 - [Vike](https://github.com/vikejs/vike)'s integrations:
-  - [Encore.ts](https://encore.dev/docs/ts) as Web Server ([Bati Discussion](https://github.com/vikejs/bati/discussions/430))
   - [gRPC Web](https://github.com/grpc/grpc-web) ([Bati Discussion](https://github.com/vikejs/bati/discussions/429))
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
 ### 📚 Templates
-- [Yarn Berry](https://github.com/rtritto/template-yarn-berry)
-- [Vite + Solid](https://github.com/rtritto/template-vite-solid)
-- [Vite + Solid + DaisyUI](https://github.com/rtritto/template-vite-solid-daisyui)
-- [Vike + Solid + DaisyUI](https://github.com/rtritto/template-vike-solid-daisyui)
-- [Vike + Solid + DaisyUI + Elysia](https://github.com/rtritto/template-vike-solid-daisyui-elysia)
-- _TODO ~ Vike + Solid + DaisyUI + Encore.ts_
-- [Electron](https://github.com/rtritto/template-electron-vite)
+- [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
+- [Vike + Solid + DaisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
+- [Vike + Solid + DaisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
+- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite)
 
 ### 🌐 Organizations
 - [Mongo Express](https://github.com/mongo-express)
+- [Templates Ecosystem](https://github.com/templates-ecosystem)
 - [µWS Ecosystem](https://github.com/uws-ecosystem)
 - [Node Ecosystem](https://github.com/node-ecosystem)
 
@@ -39,10 +36,6 @@ Here are some ideas to get you started:
 - Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Can be achieved by:
   - pose recognition (training set generated from input videos)
   - camera device to capture workout exercise
-- ~~Create a library for Node.js that exports a _performant_ Rust Web Server / Web Sockets crate. Can be achieved by:~~
-  - ~~[Neon](https://github.com/neon-bindings/neon) to unlock language interoperability and generate the Node.js native modules~~
-
-  → Unlocked by [Encore.ts](https://encore.dev/docs/ts)
 - Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
 - Create an add-on for Firefox for Android to control a video in Smart TV (Google TV OS)
 
