@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
 ### 📦 Packages
-[universal-autoloader](https://github.com/rtritto/universal-autoloader)
+- [universal-autoloader](https://github.com/rtritto/universal-autoloader)
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
