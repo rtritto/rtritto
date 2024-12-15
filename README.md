@@ -21,7 +21,8 @@ Here are some ideas to get you started:
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
 ### 📦 Packages
-- [universal-autoloader](https://github.com/rtritto/universal-autoloader)
+- [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
+- [universal-autoloader](https://github.com/node-ecosystem/universal-autoloader)
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
@@ -32,7 +33,6 @@ Here are some ideas to get you started:
 ### 🌐 Organizations
 - [Mongo Express](https://github.com/mongo-express)
 - [Templates Ecosystem](https://github.com/templates-ecosystem)
-- [µWS Ecosystem](https://github.com/uws-ecosystem)
 - [Node Ecosystem](https://github.com/node-ecosystem)
 
 ### 💡 Ideas for new projects (contact me to contribute)
