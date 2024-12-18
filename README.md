@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
-- [universal-autoloader](https://github.com/node-ecosystem/universal-autoloader)
+- [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter)
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
