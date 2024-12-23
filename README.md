@@ -17,13 +17,13 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - [Vike](https://github.com/vikejs/vike)'s integrations:
-  - API router with [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ([Vike Discussion](https://github.com/vikejs/vike/discussions/2035))
   - (?) [gRPC Web](https://github.com/grpc/grpc-web) ([Bati Discussion](https://github.com/vikejs/bati/discussions/429) & waiting https://github.com/grpc/grpc-web/issues/1414)
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
 - [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter)
+- [vite-plugin-api-autorouter](https://github.com/node-ecosystem/vite-plugin-api-autorouter)
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
