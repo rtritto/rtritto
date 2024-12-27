@@ -46,7 +46,7 @@ Here are some ideas to get you started:
 
 ### 🚀 Current Stack
 <a href="https://github.com/tandpfun/skill-icons">
-  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,nextjs,hono,vite,nodejs,mongodb,electron,eslint,git,yarn,rollupjs,rust,python,postman,dbeaver,vscode" />
+  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,vike,nextjs,hono,vite,nodejs,mongodb,electron,eslint,git,yarn,rollupjs,pkgroll,esbuild,rust,puppeteer,python,postman,dbeaver,vscode" />
 </a>
 
 ### 🟡 Previous Stack
