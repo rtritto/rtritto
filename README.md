@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
 - [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter)
-- [vite-plugin-api-autorouter](https://github.com/node-ecosystem/vite-plugin-api-autorouter)
+- [vite-plugin-load-routes](https://github.com/node-ecosystem/vite-plugin-load-routes)
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
