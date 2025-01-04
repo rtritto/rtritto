@@ -45,12 +45,12 @@ Here are some ideas to get you started:
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, DaisyUI)
 
 ### 🚀 Current Stack
-<a href="https://github.com/tandpfun/skill-icons">
+<a href="https://github.com/ixrzr/skills-icons">
   <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,vike,nextjs,hono,vite,nodejs,mongodb,electron,eslint,git,yarn,rollupjs,pkgroll,esbuild,rust,puppeteer,python,postman,dbeaver,vscode" />
 </a>
 
 ### 🟡 Previous Stack
-<a href="https://github.com/tandpfun/skill-icons">
+<a href="https://github.com/ixrzr/skills-icons">
   <img align="center" src="https://skills-icons.vercel.app/api/icons?i=react,elysia,express,materialui,bulma,jest,mysql,flutter,docker,aws,bun,java" />
 </a>
 
