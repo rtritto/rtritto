@@ -16,13 +16,12 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 I'm working on
-- [Vike](https://github.com/vikejs/vike)'s integrations:
-  - (?) [gRPC Web](https://github.com/grpc/grpc-web) ([Bati Discussion](https://github.com/vikejs/bati/discussions/429) & waiting https://github.com/grpc/grpc-web/issues/1414)
 - [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
 - [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter)
+- [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono)
 - [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes)
 
 ### 📚 Templates
