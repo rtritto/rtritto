@@ -17,7 +17,15 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express)
-- Setup of the framework stack: Vike + SolidJS + TailwindCSS + daisyUi + Hono + Telefunc + PWA + Vercel
+- Setup of the framework stack:
+  - [Vike](https://vike.dev) Web Framework
+  - [SolidJS](https://www.solidjs.com) Frontend Framework
+  - [TailwindCSS](https://tailwindcss.com) CSS
+  - [daisyUi](https://daisyui.com) UI Components
+  - [Hono](https://hono.dev) Web Server
+  - [Telefunc](https://telefunc.com) for RPC ([Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations))
+  - [PWA](https://vite-pwa-org.netlify.app) vith [Vite](https://vite.dev)
+  - Deploy on [Vercel](https://vercel.com)
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
