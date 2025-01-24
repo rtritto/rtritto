@@ -16,7 +16,8 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 I'm working on
-- [Mongo Express](https://github.com/mongo-express/mongo-express)'s maintenance
+- Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express)
+- Setup of the framework stack: Vike + SolidJS + TailwindCSS + Telefunc + daisyUi + Hono + PWA + Vercel
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
@@ -26,8 +27,8 @@ Here are some ideas to get you started:
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
-- [Vike + Solid + DaisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
-- [Vike + Solid + DaisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
+- [Vike + SolidJS + daisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
+- [Vike + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
 - [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite)
 
 ### 🌐 Organizations
