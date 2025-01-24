@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express)
-- Setup of the framework stack: Vike + SolidJS + TailwindCSS + Telefunc + daisyUi + Hono + PWA + Vercel
+- Setup of the framework stack: Vike + SolidJS + TailwindCSS + daisyUi + Hono + Telefunc + PWA + Vercel
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
