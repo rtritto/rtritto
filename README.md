@@ -49,7 +49,7 @@ Here are some ideas to get you started:
   - pose recognition (training set generated from input videos)
   - camera device to capture workout exercise
 - Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
-- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS). See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705).
+- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS). See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705)
 
 ### 🚀 Current Stack
 <a href="https://github.com/ixrzr/skills-icons">
