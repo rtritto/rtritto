@@ -17,15 +17,18 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express)
-- Setup of the framework stack:
-  - Web Framework → [Vike](https://vike.dev)
-  - Frontend Framework → [SolidJS](https://www.solidjs.com)
-  - CSS Framework → [TailwindCSS](https://tailwindcss.com)
-  - UI Components → [daisyUi](https://daisyui.com)
-  - Web Server → [Hono](https://hono.dev)
-  - APIs → REST as [RPC-like](https://github.com/vikejs/vike/discussions/2035)
-  - PWA → [Vite PWA](https://vite-pwa-org.netlify.app)
-  - Cloud Provider → [Vercel](https://vercel.com)
+- Setup of the stack:
+
+  | Component/Layer | Solution | 
+  | - | - | 
+  | Web Framework | [Vike](https://vike.dev) |
+  | Frontend Framework | [SolidJS](https://www.solidjs.com) | 
+  | CSS Framework | [TailwindCSS](https://tailwindcss.com) | 
+  | CSS Components | [daisyUI](https://daisyui.com) | 
+  | Web Server | [Hono](https://hono.dev) |
+  | Web APIs | REST as [RPC-like](https://github.com/vikejs/vike/discussions/2035) |
+  | PWA | [Vite PWA](https://vite-pwa-org.netlify.app) |
+  | Cloud Provider | [Vercel](https://vercel.com) |
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
