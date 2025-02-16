@@ -51,12 +51,12 @@ Here are some ideas to get you started:
 - Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS). See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705)
 
-### 🚀 Current Stack
+### 🚀 Current Stack (used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
-  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,vike,nextjs,hono,vite,nodejs,mongodb,electron,eslint,git,yarn,rollupjs,pkgroll,esbuild,rust,puppeteer,python,postman,dbeaver,vscode" />
+  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,vike,nextjs,hono,vite,nodejs,mongodb,electron,eslint,git,yarn,rollupjs,pkgroll,esbuild,rust,puppeteer,python,postman,dbeaver,vscode,windows" />
 </a>
 
-### 🟡 Previous Stack
+### 🟡 Previous Stack (not used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
   <img align="center" src="https://skills-icons.vercel.app/api/icons?i=react,elysia,express,materialui,bulma,jest,mysql,flutter,docker,aws,bun,java" />
 </a>
