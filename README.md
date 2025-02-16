@@ -23,9 +23,9 @@ Here are some ideas to get you started:
   - [TailwindCSS](https://tailwindcss.com) CSS
   - [daisyUi](https://daisyui.com) UI Components
   - [Hono](https://hono.dev) Web Server
-  - [Telefunc](https://telefunc.com) for RPC ([Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations))
+  - REST as [RPC-like](https://github.com/vikejs/vike/discussions/2035) APIs
   - [PWA](https://vite-pwa-org.netlify.app) vith [Vite](https://vite.dev)
-  - Deploy on [Vercel](https://vercel.com)
+  - [Vercel](https://vercel.com) Deploy
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
