@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 I'm working on
-- Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express) project
+- Maintenance of the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 - Tune of the Web App stack with Node.js:
 
   | Component/Layer | Solution | 
