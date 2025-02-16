@@ -18,14 +18,14 @@ Here are some ideas to get you started:
 ### 🔭 I'm working on
 - Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express)
 - Setup of the framework stack:
-  - [Vike](https://vike.dev) Web Framework
-  - [SolidJS](https://www.solidjs.com) Frontend Framework
-  - [TailwindCSS](https://tailwindcss.com) CSS
-  - [daisyUi](https://daisyui.com) UI Components
-  - [Hono](https://hono.dev) Web Server
-  - REST as [RPC-like](https://github.com/vikejs/vike/discussions/2035) APIs
-  - [PWA](https://vite-pwa-org.netlify.app) vith [Vite](https://vite.dev)
-  - [Vercel](https://vercel.com) Deploy
+  - Web Framework → [Vike](https://vike.dev)
+  - Frontend Framework → [SolidJS](https://www.solidjs.com)
+  - CSS Framework → [TailwindCSS](https://tailwindcss.com)
+  - UI Components → [daisyUi](https://daisyui.com)
+  - Web Server → [Hono](https://hono.dev)
+  - APIs → REST as [RPC-like](https://github.com/vikejs/vike/discussions/2035)
+  - PWA → [Vite PWA](https://vite-pwa-org.netlify.app)
+  - Cloud Provider → [Vercel](https://vercel.com)
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
