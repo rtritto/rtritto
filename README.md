@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - Maintenance of [Mongo Express](https://github.com/mongo-express/mongo-express)
-- Setup of the stack:
+- Tune of the Web App stack:
 
   | Component/Layer | Solution | 
   | - | - | 
