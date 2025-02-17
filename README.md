@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - Maintenance of the [Mongo Express](https://github.com/mongo-express/mongo-express) project
-- Tune of the Web App stack with Node.js:
+- Tune of the _best_ Web App stack with Node.js:
 
   | Component/Layer | Solution | 
   | - | - | 
@@ -32,10 +32,10 @@ Here are some ideas to get you started:
   | Cloud Provider | [Vercel](https://vercel.com) |
 
 ### 📦 Packages
-- [fastest-qs](https://github.com/node-ecosystem/fastest-qs)
-- [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter)
-- [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono)
-- [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes)
+- [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
+- [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ autorouter to automatically load routes based on the file tree
+- [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono) ~ extension of [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) to add HMR (Hot Module Replacement) in Hono
+- [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ bundle a directory of APIs to the server distribution directory
 
 ### 📚 Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
