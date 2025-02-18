@@ -62,7 +62,7 @@ Here are some ideas to get you started:
 
 ### 🟡 Previous Stack (not used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
-  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=react,elysia,express,materialui,bulma,jest,mysql,flutter,docker,aws,bun,java" />
+  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=react,elysia,express,materialui,bulma,jest,mysql,postgresql,flutter,airflow,php,java,docker,aws,bun,eclipseide" />
 </a>
 
 ### 📈 Stats
