@@ -57,7 +57,7 @@ Here are some ideas to get you started:
 
 ### 🚀 Current Stack (used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
-  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,jotai,vike,nextjs,hono,vite,nodejs,mongodb,electron,puppeteer,eslint,rollupjs,pkgroll,esbuild,vercel,chatgpt,microsoftcopilot,yarn,git,podman,python,rust,postman,dbeaver,vscode,windows,telegram" />
+  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=js,ts,html,css,sass,tailwind,daisyui,solid,jotai,vike,nextjs,hono,vite,vitepwa,nodejs,mongodb,electron,puppeteer,eslint,rollupjs,pkgroll,esbuild,vercel,yarn,git,podman,python,rust,postman,dbeaver,vscode,githubcopilot,microsoftcopilot,chatgpt,windows,telegram,appian" />
 </a>
 
 ### 🟡 Previous Stack (not used frequently)
