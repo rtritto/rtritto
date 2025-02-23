@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 I'm working on
-- Maintenance of the [Mongo Express](https://github.com/mongo-express/mongo-express) project
+- Replacing [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player
 - Tune of the _best_ Web App stack with Node.js:
 
   | Component/Layer | Solution | 
@@ -30,6 +30,7 @@ Here are some ideas to get you started:
   | Database | [MongoDB](https://www.mongodb.com) |
   | PWA | [Vite PWA](https://vite-pwa-org.netlify.app) |
   | Cloud Provider | [Vercel](https://vercel.com) |
+- Maintenance of the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 
 ### 📦 Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
