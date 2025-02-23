@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ### 🔭 I'm working on
 - Replacing [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player
-- Tuning of the _best_ Web App stack with Node.js:
+- Creating and tuning the _best_ Web App stack with Node.js:
 
   | Component/Layer | Solution | 
   | - | - | 
