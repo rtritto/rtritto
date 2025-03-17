@@ -23,7 +23,6 @@ Here are some ideas to get you started:
   | - | - | 
   | Web Framework | [Vike](https://vike.dev) |
   | Frontend Framework | [SolidJS](https://www.solidjs.com) |
-  | State Manager | [Solid Jotai](https://github.com/wobsoriano/solid-jotai) |
   | CSS Framework | [TailwindCSS](https://tailwindcss.com) |
   | CSS Components | [daisyUI](https://daisyui.com) |
   | Web Server | [Hono](https://hono.dev) |
