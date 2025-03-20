@@ -36,7 +36,7 @@ Here are some ideas to get you started:
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
 - [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ autorouter to automatically load routes based on the file tree
 - [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono) ~ extension of [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) to add HMR (Hot Module Replacement) in Hono
-- [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ bundle a directory of APIs to the server distribution directory
+- [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ Vite plugin that bundles an APIs directory to the server bundle directory
 
 ### 📚 My created Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
