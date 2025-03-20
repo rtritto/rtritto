@@ -26,7 +26,7 @@ Here are some ideas to get you started:
   | CSS Framework | [TailwindCSS](https://tailwindcss.com) |
   | CSS Components | [daisyUI](https://daisyui.com) |
   | Web Server | [Hono](https://hono.dev) |
-  | Web APIs | [REST as RPC](https://github.com/vikejs/vike/discussions/2035) |
+  | Web APIs | [REST-as-RPC](https://github.com/vikejs/vike/discussions/2035) |
   | Database | [MongoDB](https://www.mongodb.com) |
   | PWA | [Vite PWA](https://vite-pwa-org.netlify.app) |
   | Cloud Provider | [Vercel](https://vercel.com) |
