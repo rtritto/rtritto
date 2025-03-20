@@ -63,7 +63,7 @@ Here are some ideas to get you started:
 
 ### 🟡 Previous Stack (not used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
-  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=react,jotai,elysia,express,materialui,bulma,jest,mysql,postgresql,flutter,airflow,php,java,docker,aws,bun,eclipseide,chrome,chromium,brave" />
+  <img align="center" src="https://skills-icons.vercel.app/api/icons?i=react,jotai,elysia,express,materialui,bulma,jest,mysql,postgresql,flutter,airflow,heroku,php,java,docker,aws,bun,eclipseide,chrome,chromium,brave" />
 </a>
 
 ### 📈 Stats
