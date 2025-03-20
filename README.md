@@ -32,29 +32,29 @@ Here are some ideas to get you started:
   | Cloud Provider | [Vercel](https://vercel.com) |
 - Maintaining the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 
-### 📦 Packages
+### 📦 My created Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
 - [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ autorouter to automatically load routes based on the file tree
 - [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono) ~ extension of [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) to add HMR (Hot Module Replacement) in Hono
 - [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ bundle a directory of APIs to the server distribution directory
 
-### 📚 Templates
+### 📚 My created Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
 - [Vike + SolidJS + daisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
 - [Vike + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
 - [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite)
 
-### 🌐 Organizations
+### 🌐 My Organizations
 - [Mongo Express](https://github.com/mongo-express)
 - [Templates Ecosystem](https://github.com/templates-ecosystem)
 - [Node Ecosystem](https://github.com/node-ecosystem)
 
-### 💡 Ideas for new projects (contact me to contribute)
+### 💡 My Ideas for new projects (contact me to contribute)
 - Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Can be achieved by:
   - pose recognition (training set generated from input videos)
   - camera device to capture workout exercise
 - Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
-- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS). See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705)
+- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono). See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705)
 
 ### 🚀 Current Stack (used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
