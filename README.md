@@ -16,8 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 I'm working on
-- Replacing [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player
-- Creating and tuning the _best_ Web App stack with Node.js:
+- Create and tune the _best_ technology stack in Node.js for Web App:
 
   | Component/Layer | Solution | 
   | - | - | 
@@ -30,7 +29,9 @@ Here are some ideas to get you started:
   | Database | [MongoDB](https://www.mongodb.com) |
   | PWA | [Vite PWA](https://vite-pwa-org.netlify.app) |
   | Cloud Provider | [Vercel](https://vercel.com) |
-- Maintaining the [Mongo Express](https://github.com/mongo-express/mongo-express) project
+- Maintain the [Mongo Express](https://github.com/mongo-express/mongo-express) project
+- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best_ technology stack. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → [Mongo PWA](https://github.com/rtritto/mongo-pwa)
+- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js doesn't fit mobile overlay and different icons of volume level
 
 ### 📦 My created Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
@@ -54,7 +55,6 @@ Here are some ideas to get you started:
   - pose recognition (training set generated from input videos)
   - camera device to capture workout exercise
 - Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
-- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono). See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705)
 
 ### 🚀 Current Stack (used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
