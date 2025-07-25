@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
 - [Vike + SolidJS + daisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
 - [Vike + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
-- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated: Electron isn't stable_)
+- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated: Electron Forge isn't stable_)
 
 ### 🌐 My Organizations
 - [Mongo Express](https://github.com/mongo-express)
