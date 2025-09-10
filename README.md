@@ -31,7 +31,7 @@ Here are some ideas to get you started:
   | Cloud Provider | [Vercel](https://vercel.com) |
 - Maintain the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
-- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js doesn't fit mobile overlay and different icons of volume level
+- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js doesn't fit mobile (e.g. missing overlay and different icons of volume level)
 
 ### 📦 My created Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
