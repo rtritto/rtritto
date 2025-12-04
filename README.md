@@ -51,7 +51,8 @@ Here are some ideas to get you started:
 - [Node Ecosystem](https://github.com/node-ecosystem)
 
 ### 💡 My Ideas for new projects (contact me to contribute)
-- Create a Fitness AI web app that, on screen device, display the errors and the informations of the ongoing workout exercise. Can be achieved by:
+- Create a Calisthenics web app that uses a tree (graph) of progression exercise (grouped by difficulty/rank) to generates (with a wizard AI) a workout of exercises with related progressions (number of seconds/repetitions) to progress with next exercises
+- Create a Fitness AI web app that, on the screen device, displays the errors and the informations of the ongoing workout exercise. Can be achieved by:
   - pose recognition (training set generated from input videos)
   - camera device to capture workout exercise
 - Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
