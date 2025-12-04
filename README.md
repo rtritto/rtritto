@@ -31,7 +31,7 @@ Here are some ideas to get you started:
   | Cloud Provider | [Vercel](https://vercel.com) |
 - Maintain the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
-- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js doesn't fit mobile (e.g. missing overlay and different icons of volume level)
+- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js doesn't fit mobile device support to have touch events and rotate gesture, waiting [feature](https://github.com/vlitejs/vlite/issues/187)
 
 ### 📦 My created Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
 - [Vike + SolidJS + daisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
 - [Vike + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
-- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated: Electron Forge isn't stable_)
+- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated:_ Electron Forge isn't stable, waiting release of v8)
 
 ### 🌐 My Organizations
 - [Mongo Express](https://github.com/mongo-express)
