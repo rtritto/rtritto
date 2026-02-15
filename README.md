@@ -70,9 +70,9 @@ Here are some ideas to get you started:
 ### 📈 Stats
 <p>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=rtritto&theme=tokyonight" />
+    <img align="center" src="https://github-stats-extended.vercel.app/api?username=rtritto&theme=tokyonight" />
   </a>
   <a href="https://github.com/anuraghazra/anuraghazra.github.io">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rtritto&layout=compact&theme=tokyonight" />
+    <img align="center" src="https://github-stats-extended.vercel.app/api/top-langs/?username=rtritto&layout=compact&theme=tokyonight" />
   </a>
 </p>
