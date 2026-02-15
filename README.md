@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 I'm working on
-- Create and tune the _best technology stack_ in Node.js for Web App:
+- Building and tuning the _ultimate_ Node.js tech stack for Web App:
 
   | Component/Layer | Solution | 
   | - | - | 
@@ -31,11 +31,11 @@ Here are some ideas to get you started:
   | Cloud Provider | [Vercel](https://vercel.com) |
 - Maintain the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
-- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js doesn't fit mobile device support to have touch events and rotate gesture, waiting [feature](https://github.com/vlitejs/vlite/issues/187)
+- ~~Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player~~ → vLite.js currently lacks mobile support (touch events, rotate gesture). Waiting [feature](https://github.com/vlitejs/vlite/issues/187)
 
 ### 📦 My created Packages
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
-- [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ autorouter to automatically load routes based on the file tree
+- [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ auto-router to automatically load routes based on the file tree
 - [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono) ~ extension of [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) to add HMR (Hot Module Replacement) in Hono
 - [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ Vite plugin that bundles an APIs directory to the server bundle directory
 
@@ -43,19 +43,16 @@ Here are some ideas to get you started:
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
 - [Vike + SolidJS + daisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
 - [Vike + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
-- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated:_ Electron Forge isn't stable, waiting the release of v8)
+- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated:_ Electron Forge isn't stable, waiting for the v8 release)
 
 ### 🌐 My Organizations
 - [Mongo Express](https://github.com/mongo-express)
 - [Templates Ecosystem](https://github.com/templates-ecosystem)
 - [Node Ecosystem](https://github.com/node-ecosystem)
 
-### 💡 My Ideas for new projects (contact me to contribute)
-- Create a Calisthenics web app that uses a tree (graph) of progression exercise (grouped by difficulty/rank) to generates (with a wizard AI) a workout of exercises with related progressions (number of seconds/repetitions) to progress with next exercises
-- Create a Fitness AI web app that, on the screen device, displays the errors and the informations of the ongoing workout exercise. Can be achieved by:
-  - pose recognition (training set generated from input videos)
-  - camera device to capture workout exercise
-- Create an extension for Visual Studio Code that uses low-code with AI to generate config interface from code and vice versa
+### 💡 My Ideas for new projects (contact me to contribute!)
+- Create a Calisthenics web app that visualizes an exercise progression tree (graph) grouped by difficulty/rank. Includes an AI-assisted wizard that generates custom workouts, based on target skills/exercise and current level/experience, defining exercise progressions (number of seconds/repetitions to progress to the next exercise)
+- Create a Fitness AI web app that, on any device, displays real-time feedback and error corrections for a fitness exercise. This is achieved via pose recognition from the device's camera and comparison with a training set (generated from input videos)
 
 ### 🚀 Current Stack (used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
