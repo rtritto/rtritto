@@ -31,7 +31,7 @@ Here are some ideas to get you started:
   | Cloud Provider | [Vercel](https://vercel.com) |
 - Maintain the [Mongo Express](https://github.com/mongo-express/mongo-express) project
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
-- Replace [Video.js](https://videojs.com) player with [vLite.js](https://vlite.js.org) player → vLite.js currently lacks on some feature
+- Contribute to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks on some feature
 
 ### 📦 My created Packages
 - [mongodb-query-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/query-parser) ~ forked of [mongodb-query-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/query-parser) to support the ESM
