@@ -33,6 +33,9 @@ Here are some ideas to get you started:
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
 - Contribute to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks on some feature
 
+### My created Projects
+- 📻 [Radio Playlist](https://github.com/rtritto/radio-jpn) ~ [website](https://rtritto.github.io/radio-jpn) with a Playlist of Radio station
+
 ### 📦 My created Packages
 - [mongodb-query-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/query-parser) ~ fork of [mongodb-query-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/query-parser) to support ESM
 - [shell-bson-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/shell-bson-parser) ~ fork of [shell-bson-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/shell-bson-parser) to support ESM
