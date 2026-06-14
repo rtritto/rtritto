@@ -36,14 +36,15 @@ Here are some ideas to get you started:
 - 📻 [Radio Playlist](https://github.com/rtritto/radio-playlist) ~ [website](https://rtritto.github.io/radio-playlist) with a Playlist of Radio stations
 
 ### 📦 My created Packages
-- [depatcher](https://github.com/node-ecosystem/depatcher) ~ apply patches (`.patch` files) to dependencies 
-- [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch Vite/Vike config to add plugins
-- [mongodb-query-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/query-parser) ~ fork of [mongodb-query-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/query-parser) to support ESM
-- [shell-bson-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/shell-bson-parser) ~ fork of [shell-bson-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/shell-bson-parser) to support ESM
 - [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
 - [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ auto-router to automatically load routes (based on the file tree) inside _Vite instance_
 - [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono) ~ extension of [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) to add HMR (Hot Module Replacement) in Hono
 - [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ Vite plugin that bundles an APIs directory to the server bundle directory
+- [mongodb-query-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/query-parser) ~ fork of [mongodb-query-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/query-parser) to support ESM
+- [shell-bson-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/shell-bson-parser) ~ fork of [shell-bson-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/shell-bson-parser) to support ESM
+- [depatcher](https://github.com/node-ecosystem/depatcher) ~ apply patches (`.patch` files) to dependencies 
+- [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch Vite/Vike config to add plugins
+- [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch Puppeteer as stealth and without advertisements
 
 ### 📚 My created Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
