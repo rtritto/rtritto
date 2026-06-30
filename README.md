@@ -47,7 +47,6 @@ Here are some ideas to get you started:
 - [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch Vite/Vike config to add plugins
 - [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch Puppeteer as stealth and without advertisements
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
-- [vike-lite-solid](https://github.com/node-ecosystem/vike-lite-solid) ~ lite version of [vike-solid](https://github.com/vikejs/vike-solid) for [vike-lite](https://github.com/node-ecosystem/vike-lite) web framework
 
 ### 📚 My created Templates
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
