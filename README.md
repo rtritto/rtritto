@@ -18,17 +18,18 @@ Here are some ideas to get you started:
 ### 🔭 I'm working on
 - Building and tuning the _ultimate_ Node.js tech stack for Web App:
 
-  | Component/Layer | Solution | 
-  | - | - | 
-  | Web Framework | [Vike](https://vike.dev) |
-  | Frontend Framework | [SolidJS](https://www.solidjs.com) |
-  | CSS Framework | [TailwindCSS](https://tailwindcss.com) |
-  | CSS Components | [daisyUI](https://daisyui.com) |
-  | Web Server | [Hono](https://hono.dev) |
-  | Web APIs | [REST-as-RPC](https://github.com/vikejs/vike/discussions/2035) |
-  | Database | [MongoDB](https://www.mongodb.com) |
-  | PWA | [Vite PWA](https://vite-pwa-org.netlify.app) |
-  | Cloud Provider | [Vercel](https://vercel.com) |
+  | Component/Layer | Solution
+  | - | -
+  | Web Framework | [Vike Lite](https://github.com/node-ecosystem/vike-lite)
+  | Frontend Framework | [SolidJS](https://www.solidjs.com)
+  | CSS Framework | [TailwindCSS](https://tailwindcss.com)
+  | CSS Components | [daisyUI](https://daisyui.com)
+  | Web Server | [Hono](https://hono.dev)
+  | Web APIs | [REST-as-RPC](https://github.com/vikejs/vike/discussions/2035)
+  | Database | [MongoDB](https://www.mongodb.com)
+  | PWA | [Vite PWA](https://vite-pwa-org.netlify.app)
+  | Cloud Provider | [Vercel](https://vercel.com)
+- Create a lite version of Vike. See [vike-lite](https://github.com/node-ecosystem/vike-lite)
 - Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
 - Contribute to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks on some feature
 
