@@ -30,8 +30,8 @@ Here are some ideas to get you started:
   | PWA | [Vite PWA](https://vite-pwa-org.netlify.app)
   | Cloud Provider | [Vercel](https://vercel.com)
 - Create a lite version of [Vike](https://vike.dev) → See [vike-lite](https://github.com/node-ecosystem/vike-lite)
-- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → Draft repository: [mongo-pwa](https://github.com/rtritto/mongo-pwa)
-- Contribute to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks on some feature
+- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → See [mongo-pwa](https://github.com/rtritto/mongo-pwa)
+- Contribute to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks on some feature (see issues and PRs)
 
 ### 🛠️ My created Projects
 - 📻 [Radio Playlist](https://github.com/rtritto/radio-playlist) ~ [website](https://rtritto.github.io/radio-playlist) with a Playlist of Radio stations
