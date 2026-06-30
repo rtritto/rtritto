@@ -58,8 +58,8 @@ Here are some ideas to get you started:
 
 ### 🌐 My Organizations
 - [Mongo Express](https://github.com/mongo-express)
-- [Templates Ecosystem](https://github.com/templates-ecosystem)
 - [Node Ecosystem](https://github.com/node-ecosystem)
+- [Templates Ecosystem](https://github.com/templates-ecosystem)
 
 ### 💡 My Ideas for new projects (contact me to contribute!)
 - Create a Calisthenics web app that visualizes an exercise progression tree (graph) grouped by difficulty/rank. Includes an AI-assisted wizard that generates custom workouts, based on target skills/exercise and current level/experience, defining exercise progressions (number of seconds/repetitions to progress to the next exercise)
