@@ -37,10 +37,7 @@ Here are some ideas to get you started:
 - 📻 [Radio Playlist](https://github.com/rtritto/radio-playlist) ~ [website](https://rtritto.github.io/radio-playlist) with a Playlist of Radio stations
 
 ### 📦 My created Packages (from oldest to newest)
-- [fastest-qs](https://github.com/node-ecosystem/fastest-qs) ~ fastest parser for query string
-- [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) ~ auto-router to automatically load routes (based on the file tree) inside _Vite instance_
-- [universal-autorouter-hono](https://github.com/node-ecosystem/universal-autorouter-hono) ~ extension of [universal-autorouter](https://github.com/node-ecosystem/universal-autorouter) to add HMR (Hot Module Replacement) in Hono
-- [vite-plugin-build-routes](https://github.com/node-ecosystem/vite-plugin-build-routes) ~ Vite plugin that bundles an APIs directory to the server bundle directory
+- [Deprecated Packages](./DEPRECATED.md#-my-created-packages-from-oldest-to-newest)
 - [mongodb-query-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/query-parser) ~ fork of [mongodb-query-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/query-parser) to support ESM
 - [shell-bson-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/shell-bson-parser) ~ fork of [shell-bson-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/shell-bson-parser) to support ESM
 - [depatcher](https://github.com/node-ecosystem/depatcher) ~ apply patches (`.patch` files) to dependencies 
@@ -49,11 +46,9 @@ Here are some ideas to get you started:
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
 
 ### 📚 My created Templates
+- [Deprecated Templates](./DEPRECATED.md#-my-created-templates)
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
-- [Vike + SolidJS + daisyUI](https://github.com/templates-ecosystem/template-vike-solid-daisyui)
-- [Vike + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-solid-daisyui-hono)
-- [Vike + Vue + Vercel](https://github.com/rtritto/vike-with-vercel)
-- [Electron + Vite](https://github.com/templates-ecosystem/template-electron-vite) (_Not updated:_ Electron Forge isn't stable, waiting for the v8 release)
+- [Vike Lite + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-solid-daisyui-hono)
 
 ### 🌐 My Organizations
 - [Mongo Express](https://github.com/mongo-express)
