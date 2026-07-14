@@ -42,7 +42,7 @@ Here are some ideas to get you started:
 - [shell-bson-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/shell-bson-parser) ~ fork of [shell-bson-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/shell-bson-parser) to support ESM
 - [mongo-solid](https://github.com/node-ecosystem/mongo-solid) ~ rebuild of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack
 - [depatcher](https://github.com/node-ecosystem/depatcher) ~ apply patches (`.patch` files) to dependencies 
-- [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch Vite/Vike config to add plugins
+- [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch [Vite](https://vite.dev)/[Vike](https://vike.dev) config to add plugins
 - [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch [Puppeteer](https://pptr.dev) as stealth and without advertisements
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
 
