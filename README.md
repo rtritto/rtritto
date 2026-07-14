@@ -31,7 +31,7 @@ Here are some ideas to get you started:
   | Database | [MongoDB](https://www.mongodb.com)
   | PWA | [Vite PWA](https://vite-pwa-org.netlify.app)
   | Cloud Provider | [Vercel](https://vercel.com)
-- Contributing to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks some feature (see issues and PRs)
+- Contributing to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks some features (see issues and PRs)
 
 ### 🛠️ My created Projects
 - 📻 [Radio Playlist](https://github.com/rtritto/radio-playlist) ~ [website](https://rtritto.github.io/radio-playlist) with a Playlist of Radio stations
