@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 - [mongo-solid](https://github.com/node-ecosystem/mongo-solid) ~ rebuild of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack
 - [depatcher](https://github.com/node-ecosystem/depatcher) ~ apply patches (`.patch` files) to dependencies 
 - [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch Vite/Vike config to add plugins
-- [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch Puppeteer as stealth and without advertisements
+- [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch [Puppeteer](https://pptr.dev) as stealth and without advertisements
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
 
 ### 📚 My created Templates
