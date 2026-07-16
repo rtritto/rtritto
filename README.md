@@ -51,6 +51,7 @@ Here are some ideas to get you started:
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
 - [Vike Lite + React + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-react-daisyui-hono)
 - [Vike Lite + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-solid-daisyui-hono)
+- [Vike Lite + Vue + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-vue-daisyui-hono)
 
 ### 💡 My Ideas for new projects (contact me to contribute!)
 - Create a Calisthenics web app that visualizes an exercise progression tree (graph) grouped by difficulty/rank. Includes an AI-assisted wizard that generates custom workouts, based on target skills/exercise and current level/experience, defining exercise progressions (number of seconds/repetitions to progress to the next exercise)
