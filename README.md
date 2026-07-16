@@ -49,6 +49,7 @@ Here are some ideas to get you started:
 ### 📚 My created Templates
 - [Deprecated Templates](./DEPRECATED.md#-my-created-templates)
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
+- [Vike Lite + React + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-react-daisyui-hono)
 - [Vike Lite + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-solid-daisyui-hono)
 
 ### 💡 My Ideas for new projects (contact me to contribute!)
