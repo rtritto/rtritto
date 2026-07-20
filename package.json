@@ -16,7 +16,6 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "hono": "^4.12.31",
     "solid-js": "^1.9.14"
   },
   "devDependencies": {
@@ -29,6 +28,7 @@
     "eslint-plugin-solid": "^0.14.5",
     "eslint-plugin-tailwindcss": "^4.2.0",
     "eslint-plugin-unicorn": "^72.0.0",
+    "hono": "^4.12.31",
     "resend": "^6.17.2",
     "rolldown": "^1.2.0",
     "standaloner": "^0.3.3",
