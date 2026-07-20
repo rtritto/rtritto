@@ -2,6 +2,7 @@
 
 I'm passionate about building modern, fast, and highly optimized web applications. I love experimenting with cutting-edge technologies and contributing to the open-source ecosystem.
 
+[Contact me](https://rtritto.vercel.app) for collaboration or questions!
 <!--
 **rtritto/rtritto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -53,9 +54,21 @@ Here are some ideas to get you started:
 - [Vike Lite + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-solid-daisyui-hono)
 - [Vike Lite + Vue + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-vue-daisyui-hono)
 
-### 💡 My Ideas for new projects (contact me to contribute!)
-- Create a Calisthenics web app that visualizes an exercise progression tree (graph) grouped by difficulty/rank. Includes an AI-assisted wizard that generates custom workouts, based on target skills/exercise and current level/experience, defining exercise progressions (number of seconds/repetitions to progress to the next exercise)
-- Create a Fitness AI web app that, on any device, displays real-time feedback and error corrections for a fitness exercise. This is achieved via pose recognition from the device's camera and comparison with a training set (generated from input videos)
+### 💡 Project Ideas
+I'm looking for contributors to help build these projects. If you're interested, [contact me](https://rtritto.vercel.app).
+
+#### 🏋️ Calisthenics Progression App
+A web app that visualizes an **exercise progression tree as an interactive graph**, grouped by difficulty and rank. Includes an **AI-assisted wizard** that generates custom workouts based on:
+- Target skills/exercises
+- Current level and experience
+- Exercise progressions (repetitions/seconds required to advance)
+
+**Tech stack idea**: SolidJS, D3.js/vis.js, OpenAI API, IndexedDB
+
+#### 🎥 Fitness AI Coach
+A real-time fitness web app that provides **live feedback and error corrections** during exercise execution. Uses **pose recognition** from the device's camera and compares it with a training set generated from input videos.
+
+**Tech stack idea**: TensorFlow.js/MediaPipe, WebRTC, SolidJS, Web Workers
 
 ### 🚀 Current Stack (used frequently)
 <a href="https://github.com/ixrzr/skills-icons">
