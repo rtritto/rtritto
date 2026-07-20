@@ -16,7 +16,7 @@ export default {
     vikeLiteSolid(),
     ...process.env.NODE_ENV === 'production' && process.platform !== 'win32' ? [
       (await import('standaloner/vite')).default({
-        bundle: true,
+        bundle: ['index', 'prerender'],
         minify: true
       })
     ] : []
