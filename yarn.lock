@@ -1722,10 +1722,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^5.6.18":
-  version: 5.6.18
-  resolution: "daisyui@npm:5.6.18"
-  checksum: 10c0/36bef9132712e6b89d10fd9886939702af9f83c5850f680cb81edc3da9f05f18934381fbc7143c1c4c33703ef12e8ca83f919c4c9d13aab00d81364214deb24f
+"daisyui@npm:^5.6.22":
+  version: 5.6.22
+  resolution: "daisyui@npm:5.6.22"
+  checksum: 10c0/16e2b398e5b4e9b957af84599fa7e8be570942b7ded476ca68b890b29ae338ce1d87f77f46982e043b6da5195ecfdcfa43b86f9e1b8d12b11ccbb2b546d5594d
   languageName: node
   linkType: hard
 
@@ -2579,7 +2579,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.3.3"
     "@types/node": "npm:^26.1.1"
     "@yarnpkg/sdks": "npm:^3.3.0"
-    daisyui: "npm:^5.6.18"
+    daisyui: "npm:^5.6.22"
     eslint: "npm:^10.7.0"
     eslint-plugin-solid: "npm:^0.14.5"
     eslint-plugin-tailwindcss: "npm:^4.2.0"
@@ -2592,7 +2592,6 @@ __metadata:
     tailwindcss: "npm:^4.3.3"
     typescript: "npm:^6.0.3"
     typescript-eslint: "npm:^8.64.0"
-    undici: "npm:^8.7.0"
     vike-lite: "npm:^1.15.18"
     vike-lite-solid: "npm:^1.10.14"
     vite: "npm:^8.1.5"
@@ -3820,10 +3819,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^8.4.1, undici@npm:^8.7.0":
-  version: 8.7.0
-  resolution: "undici@npm:8.7.0"
-  checksum: 10c0/b7e5ecb4de82fa4f905011a77544fe7ba4da06f27167ff99313a7ae2869f3cb233d676dcd085533bc69f36989bc40871f5ae6ea6e4c9b91db92616b9e91b579d
+"undici@npm:^8.4.1":
+  version: 8.8.0
+  resolution: "undici@npm:8.8.0"
+  checksum: 10c0/6ee51e6b814b67e212b19349c38657be988d878ca669ccf2ad33f0ebbb0d83e851aa57554b6ce3c6668a9a4df3010fb6a6af7bd28692ade911083ef376a3a75d
   languageName: node
   linkType: hard
 
