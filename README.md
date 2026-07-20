@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+I'm passionate about building modern, fast, and highly optimized web applications. I love experimenting with cutting-edge technologies and contributing to the open-source ecosystem.
+
 <!--
 **rtritto/rtritto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -16,7 +18,7 @@ Here are some ideas to get you started:
 -->
 
 ### 🔭 Current activities
-- Build and tuning the _ultimate_ Node.js tech stack for Web App:
+- Building and tuning the _ultimate_ Node.js tech stack for Web App:
 
   | Component/Layer | Solution
   | - | -
@@ -29,9 +31,7 @@ Here are some ideas to get you started:
   | Database | [MongoDB](https://www.mongodb.com)
   | PWA | [Vite PWA](https://vite-pwa-org.netlify.app)
   | Cloud Provider | [Vercel](https://vercel.com)
-- Create a lite version of [Vike](https://vike.dev) → See [vike-lite](https://github.com/node-ecosystem/vike-lite)
-- Create a new project of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack (e.g. Vike, SolidJS, TailwindCSS, Hono) with the _best technology stack_. See [discussion](https://github.com/mongo-express/mongo-express/discussions/1705) → See [mongo-pwa](https://github.com/rtritto/mongo-pwa)
-- Contribute to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks on some feature (see issues and PRs)
+- Contributing to [vLite.js](https://vlite.js.org) player to replace [Video.js](https://videojs.com) player → vLite.js currently lacks some features (see issues and PRs)
 
 ### 🛠️ My created Projects
 - 📻 [Radio Playlist](https://github.com/rtritto/radio-playlist) ~ [website](https://rtritto.github.io/radio-playlist) with a Playlist of Radio stations
@@ -40,20 +40,18 @@ Here are some ideas to get you started:
 - [Deprecated Packages](./DEPRECATED.md#-my-created-packages-from-oldest-to-newest)
 - [mongodb-query-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/query-parser) ~ fork of [mongodb-query-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/query-parser) to support ESM
 - [shell-bson-parser-esm](https://github.com/node-ecosystem/devtools-shared-esm/tree/esm/packages/shell-bson-parser) ~ fork of [shell-bson-parser](https://github.com/mongodb-js/devtools-shared/tree/main/packages/shell-bson-parser) to support ESM
+- [mongo-solid](https://github.com/node-ecosystem/mongo-solid) ~ rebuild of [Mongo Express](https://github.com/mongo-express/mongo-express) using a modern technology stack
 - [depatcher](https://github.com/node-ecosystem/depatcher) ~ apply patches (`.patch` files) to dependencies 
-- [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch Vite/Vike config to add plugins
-- [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch Puppeteer as stealth and without advertisements
+- [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch [Vite](https://vite.dev)/[Vike](https://vike.dev) config to add plugins
+- [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch [Puppeteer](https://pptr.dev) as stealth and without advertisements
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
 
 ### 📚 My created Templates
 - [Deprecated Templates](./DEPRECATED.md#-my-created-templates)
 - [Yarn Berry](https://github.com/templates-ecosystem/template-yarn-berry)
+- [Vike Lite + React + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-react-daisyui-hono)
 - [Vike Lite + SolidJS + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-solid-daisyui-hono)
-
-### 🌐 My Organizations
-- [Mongo Express](https://github.com/mongo-express)
-- [Node Ecosystem](https://github.com/node-ecosystem)
-- [Templates Ecosystem](https://github.com/templates-ecosystem)
+- [Vike Lite + Vue + daisyUI + Hono](https://github.com/templates-ecosystem/template-vike-lite-vue-daisyui-hono)
 
 ### 💡 My Ideas for new projects (contact me to contribute!)
 - Create a Calisthenics web app that visualizes an exercise progression tree (graph) grouped by difficulty/rank. Includes an AI-assisted wizard that generates custom workouts, based on target skills/exercise and current level/experience, defining exercise progressions (number of seconds/repetitions to progress to the next exercise)
