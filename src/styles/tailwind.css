@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+@layer utilities {
+  .btn {
+    border-color: transparent;
+
+    /* Enforce TailwindCSS v3 styles */
+    @apply rounded-md;
+
+    outline: none;
+
+    &:is(input[type="checkbox"], input[type="radio"]) {
+      &:checked {
+        outline: none;
+        /* Useless, border-color already applies the border-color */
+        /* border-color: black; Replace color of --btn-border: var(--color-primary) */
+      }
+    }
+  }
+
+  .tabs-border {
+    & .tab {
+      /* Remove border-radius on bottom */
+      border-radius: 0;
+      @apply rounded-t-lg;
+    }
+  }
+
+  .select {
+    &:focus-within {
+      /* Remove border */
+      outline: none;
+    }
+  }
+
+  .input {
+    &:focus-within {
+      border-color: #1EA1F1;
+      /* Remove border */
+      outline: none;
+    }
+
+    /* Change icon and kbd color when input is focused */
+    &:focus-within svg,
+    &:focus-within .kbd {
+      color: #1EA1F1;
+    }
+  }
+}
+
+/* Extend the bar of selected tab
+@layer utilities {
+  .tabs-border .tab::before {
+    left: 0;
+    width: 100%;
+  }
+} */

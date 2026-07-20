@@ -1,0 +1,10 @@
+{
+  "outputDirectory": "dist/client",
+  "installCommand": "yarn install --immutable",
+  "rewrites": [
+    {
+      "source": "/((?!assets/).*)",
+      "destination": "/api/ssr.js"
+    }
+  ]
+}
