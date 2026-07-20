@@ -21,6 +21,7 @@ export default {
       })
     ] : []
   ],
+  envPrefix: 'VITE_',
   server: {
     port: 3000
   },

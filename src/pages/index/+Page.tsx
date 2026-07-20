@@ -1,10 +1,75 @@
-import { createSignal, For } from 'solid-js'
+import { createSignal, onCleanup, onMount, Switch, Match } from 'solid-js'
 
-type FormStatus = 'idle' | 'success' | 'error' | 'rate_limited'
+type FormStatus = 'idle' | 'success' | 'error' | 'rate_limited' | 'captcha_error'
 
 export default function Page() {
   const [isSubmitting, setIsSubmitting] = createSignal(false)
   const [formStatus, setFormStatus] = createSignal<FormStatus>('idle')
+  const [turnstileToken, setTurnstileToken] = createSignal('')
+
+  let turnstileContainer!: HTMLDivElement
+  let turnstileWidgetId: string | undefined
+
+  const resetTurnstile = () => {
+    setTurnstileToken('')
+    const turnstile = (globalThis as any).turnstile
+    if (turnstile && turnstileWidgetId) turnstile.reset(turnstileWidgetId)
+  }
+
+  onMount(() => {
+    const siteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY
+
+    if (!siteKey) {
+      console.error('Missing VITE_TURNSTILE_SITE_KEY')
+      return
+    }
+
+    const renderTurnstile = () => {
+      const turnstile = (globalThis as any).turnstile
+
+      if (!turnstile || !turnstileContainer || turnstileWidgetId) return
+
+      turnstileWidgetId = turnstile.render(turnstileContainer, {
+        sitekey: siteKey,
+        theme: 'auto',
+        callback: (token: string) => {
+          setTurnstileToken(token)
+        },
+        'expired-callback': () => {
+          setTurnstileToken('')
+        },
+        'error-callback': () => {
+          setTurnstileToken('')
+        }
+      })
+    }
+
+    if ((globalThis as any).turnstile) {
+      renderTurnstile()
+      return
+    }
+
+    const existingScript = document.querySelector('#cf-turnstile-script')
+
+    if (existingScript) {
+      existingScript.addEventListener('load', renderTurnstile, { once: true })
+      return
+    }
+
+    const script = document.createElement('script')
+    script.id = 'cf-turnstile-script'
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
+    script.async = true
+    script.defer = true
+    script.addEventListener('load', renderTurnstile, { once: true })
+
+    document.head.append(script)
+  })
+
+  onCleanup(() => {
+    const turnstile = (globalThis as any).turnstile
+    if (turnstile && turnstileWidgetId) turnstile.remove(turnstileWidgetId)
+  })
 
   const handleContact = async (e: SubmitEvent) => {
     e.preventDefault()
@@ -17,6 +82,17 @@ export default function Page() {
     const form = e.currentTarget as HTMLFormElement
     const formData = new FormData(form)
 
+    const payload = {
+      ...Object.fromEntries(formData),
+      turnstileToken: turnstileToken()
+    }
+
+    if (!payload.turnstileToken) {
+      setFormStatus('captcha_error')
+      setIsSubmitting(false)
+      return
+    }
+
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
@@ -24,7 +100,7 @@ export default function Page() {
           'Content-Type': 'application/json',
           Accept: 'application/json'
         },
-        body: JSON.stringify(Object.fromEntries(formData))
+        body: JSON.stringify(payload)
       })
 
       if (res.ok) {
@@ -32,6 +108,8 @@ export default function Page() {
         form.reset()
       } else if (res.status === 429) {
         setFormStatus('rate_limited')
+      } else if (res.status === 403) {
+        setFormStatus('captcha_error')
       } else {
         setFormStatus('error')
       }
@@ -39,6 +117,7 @@ export default function Page() {
       setFormStatus('error')
     } finally {
       setIsSubmitting(false)
+      resetTurnstile()
     }
   }
 
@@ -151,10 +230,16 @@ export default function Page() {
                 />
               </div>
 
+              <div class="form-control mb-4">
+                <div class="flex justify-center">
+                  <div ref={turnstileContainer} />
+                </div>
+              </div>
+
               <button
                 type="submit"
                 class="btn btn-primary w-full shadow-lg shadow-primary/20"
-                disabled={isSubmitting()}
+                disabled={isSubmitting() || !turnstileToken()}
               >
                 {isSubmitting() ? (
                   <>
@@ -166,23 +251,28 @@ export default function Page() {
                 )}
               </button>
 
-              {formStatus() === 'success' && (
-                <div role="alert" class="mt-4 alert alert-success">
-                  <span>Message sent, thanks!</span>
-                </div>
-              )}
-
-              {formStatus() === 'rate_limited' && (
-                <div role="alert" class="mt-4 alert alert-warning">
-                  <span>Too many requests. Please try again later.</span>
-                </div>
-              )}
-
-              {formStatus() === 'error' && (
-                <div role="alert" class="mt-4 alert alert-error">
-                  <span>Failed to send. Try again later.</span>
-                </div>
-              )}
+              <Switch>
+                <Match when={formStatus() === 'success'}>
+                  <div role="alert" class="mt-4 alert alert-success">
+                    <span>Message sent, thanks!</span>
+                  </div>
+                </Match>
+                <Match when={formStatus() === 'captcha_error'}>
+                  <div role="alert" class="mt-4 alert alert-warning">
+                    <span>Captcha verification failed. Please try again.</span>
+                  </div>
+                </Match>
+                <Match when={formStatus() === 'rate_limited'}>
+                  <div role="alert" class="mt-4 alert alert-warning">
+                    <span>Too many requests. Please try again later.</span>
+                  </div>
+                </Match>
+                <Match when={formStatus() === 'error'}>
+                  <div role="alert" class="mt-4 alert alert-error">
+                    <span>Failed to send. Try again later.</span>
+                  </div>
+                </Match>
+              </Switch>
             </form>
           </div>
         </div>
