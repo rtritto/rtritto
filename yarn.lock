@@ -2592,7 +2592,7 @@ __metadata:
     tailwindcss: "npm:^4.3.3"
     typescript: "npm:^6.0.3"
     typescript-eslint: "npm:^8.65.0"
-    vike-lite: "npm:^1.15.19"
+    vike-lite: "npm:^1.15.20"
     vike-lite-solid: "npm:^1.10.14"
     vite: "npm:^8.1.5"
     vite-plugin-solid: "npm:^2.11.13"
@@ -3868,12 +3868,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike-lite@npm:^1.15.19":
-  version: 1.15.19
-  resolution: "vike-lite@npm:1.15.19"
+"vike-lite@npm:^1.15.20":
+  version: 1.15.20
+  resolution: "vike-lite@npm:1.15.20"
   peerDependencies:
     vite: ">=8"
-  checksum: 10c0/f511575de7a58a53096d13343592baf9f6fef172de759b9aa2dd5edf9b224e2b8737b3c43dff7521640d16fb47fc85ac5b262443b9f9db84c90cfc02880dd322
+  checksum: 10c0/62d9aae36ae3b4f95bca6c77cffff767dd4ae3a49eb785b1bdcd00cbdddf06344807e452b558dacb9664e3567a98488d3dcdfdc2fb56a3d9bd38173b693492fc
   languageName: node
   linkType: hard
 
