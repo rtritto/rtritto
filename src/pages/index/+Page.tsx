@@ -6,9 +6,20 @@ export default function Page() {
   const [isSubmitting, setIsSubmitting] = createSignal(false)
   const [formStatus, setFormStatus] = createSignal<FormStatus>('idle')
   const [turnstileToken, setTurnstileToken] = createSignal('')
+  const [name, setName] = createSignal('')
+  const [email, setEmail] = createSignal('')
+  const [message, setMessage] = createSignal('')
 
   let turnstileContainer!: HTMLDivElement
   let turnstileWidgetId: string | undefined
+
+  const isNameValid = () => name().trim().length >= 2
+  const isEmailValid = () => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    return emailRegex.test(email().trim()) && email().trim().length <= 254
+  }
+  const isMessageValid = () => message().trim().length >= 10 && message().trim().length <= 5000
+  const isFormValid = () => isNameValid() && isEmailValid() && isMessageValid() && !!turnstileToken()
 
   const resetTurnstile = () => {
     setTurnstileToken('')
@@ -32,15 +43,9 @@ export default function Page() {
       turnstileWidgetId = turnstile.render(turnstileContainer, {
         sitekey: siteKey,
         theme: 'auto',
-        callback: (token: string) => {
-          setTurnstileToken(token)
-        },
-        'expired-callback': () => {
-          setTurnstileToken('')
-        },
-        'error-callback': () => {
-          setTurnstileToken('')
-        }
+        callback: (token: string) => { setTurnstileToken(token) },
+        'expired-callback': () => { setTurnstileToken('') },
+        'error-callback': () => { setTurnstileToken('') }
       })
     }
 
@@ -74,7 +79,7 @@ export default function Page() {
   const handleContact = async (e: SubmitEvent) => {
     e.preventDefault()
 
-    if (isSubmitting()) return
+    if (isSubmitting() || !isFormValid()) return
 
     setIsSubmitting(true)
     setFormStatus('idle')
@@ -85,12 +90,6 @@ export default function Page() {
     const payload = {
       ...Object.fromEntries(formData),
       turnstileToken: turnstileToken()
-    }
-
-    if (!payload.turnstileToken) {
-      setFormStatus('captcha_error')
-      setIsSubmitting(false)
-      return
     }
 
     try {
@@ -106,13 +105,12 @@ export default function Page() {
       if (res.ok) {
         setFormStatus('success')
         form.reset()
-      } else if (res.status === 429) {
-        setFormStatus('rate_limited')
-      } else if (res.status === 403) {
-        setFormStatus('captcha_error')
-      } else {
-        setFormStatus('error')
-      }
+        setName('')
+        setEmail('')
+        setMessage('')
+      } else if (res.status === 429) setFormStatus('rate_limited')
+      else if (res.status === 403) setFormStatus('captcha_error')
+      else setFormStatus('error')
     } catch {
       setFormStatus('error')
     } finally {
@@ -135,7 +133,7 @@ export default function Page() {
           aria-label="Open GitHub profile"
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             width="22"
             height="22"
             viewBox="0 0 24 24"
@@ -168,6 +166,9 @@ export default function Page() {
               <div class="form-control">
                 <label class="label" for="name">
                   <span class="label-text font-medium">Name + Surname</span>
+                  <span class="label-text-alt text-base-content/50">
+                    {name().trim().length > 0 && !isNameValid() ? 'Min 2 characters' : ''}
+                  </span>
                 </label>
                 <input
                   id="name"
@@ -179,12 +180,21 @@ export default function Page() {
                   autocomplete="name"
                   placeholder="John Doe"
                   class="input input-bordered w-full focus:input-primary"
+                  classList={{
+                    'input-error': name().trim().length > 0 && !isNameValid(),
+                    'input-success': isNameValid()
+                  }}
+                  value={name()}
+                  onInput={(e) => setName(e.currentTarget.value)}
                 />
               </div>
 
               <div class="form-control">
                 <label class="label" for="email">
                   <span class="label-text font-medium">Email</span>
+                  <span class="label-text-alt text-base-content/50">
+                    {email().trim().length > 0 && !isEmailValid() ? 'Invalid email' : ''}
+                  </span>
                 </label>
                 <input
                   id="email"
@@ -195,12 +205,23 @@ export default function Page() {
                   autocomplete="email"
                   placeholder="john@example.com"
                   class="input input-bordered w-full focus:input-primary"
+                  classList={{
+                    'input-error': email().trim().length > 0 && !isEmailValid(),
+                    'input-success': isEmailValid()
+                  }}
+                  value={email()}
+                  onInput={(e) => setEmail(e.currentTarget.value)}
                 />
               </div>
 
               <div class="form-control">
                 <label class="label" for="message">
                   <span class="label-text font-medium">Message</span>
+                  <span class="label-text-alt text-base-content/50">
+                    {message().trim().length > 0 && !isMessageValid()
+                      ? `Min 10 characters (${message().trim().length}/10)`
+                      : (message().trim().length >= 10 ? `${message().trim().length}/5000` : '')}
+                  </span>
                 </label>
                 <textarea
                   id="message"
@@ -209,13 +230,14 @@ export default function Page() {
                   minLength={10}
                   maxLength={5000}
                   class="textarea textarea-bordered min-h-32 w-full focus:textarea-primary"
+                  classList={{
+                    'textarea-error': message().trim().length > 0 && !isMessageValid(),
+                    'textarea-success': isMessageValid()
+                  }}
                   placeholder="How can I help you?"
+                  value={message()}
+                  onInput={(e) => setMessage(e.currentTarget.value)}
                 />
-                <label class="label">
-                  <span class="label-text-alt text-base-content/50">
-                    Minimum 10 characters.
-                  </span>
-                </label>
               </div>
 
               {/* Honeypot anti-spam */}
@@ -239,7 +261,7 @@ export default function Page() {
               <button
                 type="submit"
                 class="btn btn-primary w-full shadow-lg shadow-primary/20"
-                disabled={isSubmitting() || !turnstileToken()}
+                disabled={isSubmitting() || !isFormValid()}
               >
                 {isSubmitting() ? (
                   <>
