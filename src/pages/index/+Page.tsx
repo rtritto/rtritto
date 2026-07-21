@@ -134,12 +134,13 @@ export default function Page() {
         <section id="contact-me" class="container mx-auto max-w-2xl scroll-mt-10 px-4 py-12 md:py-16">
 
           {/* HEADER */}
-          <div class="mb-8 flex flex-wrap items-center justify-center gap-2 text-center text-sm font-bold text-primary">
-
+          <div class="mb-8 flex flex-wrap items-center justify-center gap-2 text-center text-sm font-bold">
             <h2 class="flex items-center gap-2 tracking-[0.25em]">
-              <span class="text-primary uppercase">Contact</span>
+              <span class="text-base-content/60 uppercase">Contact</span>
 
-              <span class="origin-left scale-110 text-base-content/50 lowercase">rtritto</span>
+              <span class="origin-left scale-110 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent lowercase">
+                rtritto
+              </span>
             </h2>
 
             <div class="flex items-center gap-1.5">
@@ -149,12 +150,12 @@ export default function Page() {
                 href="https://github.com/rtritto"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="btn btn-square shadow-sm transition-transform btn-neutral btn-sm hover:-translate-y-0.5"
+                class="btn btn-circle btn-ghost shadow-sm transition-transform btn-sm hover:scale-110"
                 aria-label="Open GitHub profile"
                 title="GitHub Profile"
               >
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width="18"
                   height="18"
                   viewBox="0 0 24 24"
@@ -167,7 +168,6 @@ export default function Page() {
 
               <span class="tracking-normal text-base-content/40 opacity-70">)</span>
             </div>
-
           </div>
 
           <div class="card border border-base-300 bg-base-100/95 shadow-2xl shadow-primary/10 backdrop-blur">
