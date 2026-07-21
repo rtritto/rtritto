@@ -120,7 +120,7 @@ export default function Page() {
   }
 
   return (
-    <div class="min-h-screen bg-base-200 font-sans text-base-content">
+    <div class="bg-base-200 font-sans text-base-content">
       {/* BACKGROUND */}
       <div class="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(139,92,246,0.20),transparent_35%),radial-gradient(circle_at_top_right,rgba(6,182,212,0.16),transparent_30%),radial-gradient(circle_at_bottom,rgba(34,197,94,0.12),transparent_30%)]" />
 
