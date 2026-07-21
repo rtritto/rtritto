@@ -37,13 +37,6 @@ export default defineConfig({
     'unicorn/prefer-early-return': 0,
     'unicorn/prefer-node-protocol': 0,
 
-    'tailwindcss/no-custom-classname': [1, {
-      whitelist: [
-        'drawer-overlay',
-        'collapse-close',
-        'footer-center',
-        'menu-disabled'
-      ]
-    }]
+    'tailwindcss/no-custom-classname': 0
   }
 })
