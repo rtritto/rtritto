@@ -155,9 +155,6 @@ export default function Page() {
         </div>
         <div class="mb-8 text-center">
           <p class="text-sm font-semibold tracking-[0.25em] text-accent uppercase">Contact Me</p>
-          <p class="mt-3 text-base-content/65">
-            Send me a message securely through the contact form.
-          </p>
         </div>
 
         <div class="card border border-base-300 bg-base-100/95 shadow-2xl shadow-primary/10 backdrop-blur">
