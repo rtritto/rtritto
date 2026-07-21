@@ -46,6 +46,7 @@ Here are some ideas to get you started:
 - [vite-patcher](https://github.com/node-ecosystem/vite-patcher) ~ patch [Vite](https://vite.dev)/[Vike](https://vike.dev) config to add plugins
 - [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch [Puppeteer](https://pptr.dev) as stealth and without advertisements
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
+- [node-zip-stream](https://github.com/node-ecosystem/node-zip-stream) ~ minimal, dependency-free streaming ZIP reader/writer for Node.js
 
 ### 📚 My created Templates
 - [Deprecated Templates](./DEPRECATED.md#-my-created-templates)
