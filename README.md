@@ -47,7 +47,7 @@ Here are some ideas to get you started:
 - [puppeteer-stealth-launcher](https://github.com/node-ecosystem/puppeteer-stealth-launcher) ~ launch [Puppeteer](https://pptr.dev) as stealth and without advertisements
 - [vike-lite](https://github.com/node-ecosystem/vike-lite) ~ lite version of [Vike](https://vike.dev) web framework
 - [node-zip-stream](https://github.com/node-ecosystem/node-zip-stream) ~ minimal, dependency-free streaming ZIP reader/writer for Node.js
-- [repo-to-llm](https://github.com/node-ecosystem/repo-to-llm) ~ convert a source code GitHub repository into a single PDF for use as context by an LLM
+- [repo-to-llm](https://github.com/node-ecosystem/repo-to-llm) ~ convert a source code of a GitHub repository into a single PDF to use as context of an LLM
 
 ### 📚 My created Templates
 - [Deprecated Templates](./DEPRECATED.md#-my-created-templates)
